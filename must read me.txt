@@ -1,0 +1,67 @@
+(1). use....endpoint
+	/rooms   ---> for create(post) a room and get rooms
+
+
+	(inputs like)
+
+	"roomnumber": ,
+	"seats": ,
+	"amenities": ,
+	"pricePerHour": 
+
+you can use 
+
+"roomnumber": "A01" ,
+"seats": "20" ,
+"amenities": "full furnished" ,
+"pricePerHour":"1200" 
+
+if you repeat the same room number there will be error ocuurs.
+
+(2). use..... 
+
+        /bookings      ---> for book(post) a room and get a room
+
+	(inputs like)
+
+    "customerName":,
+    "date":,
+    "startTime":,
+    "endTime":,
+    "roomId":
+
+you may use
+
+"customerName": "sathish",
+"date": "12-12-2023",
+"startTime":"10:30AM",
+"endTime": "10.30PM",
+"roomId": "501"
+
+if you repeat or try to book the same room id on same date are before used there will be error occurs....you can change either roomid or date to avoid errors
+
+3. use.....
+
+    /booking-list       ----> for get all bookings details
+
+4. use......
+
+  /customers             ----> for get all customers details
+
+5. use.......
+  
+  /customer-history/:customerName        -----> for get particular customer details
+
+ you can use 
+
+   /customer-history/sathish
+
+note: to get (3),(4),(5) you must fill the (1) and (2) entities
+
+
+                           thank you.....
+
+
+ 
+
+
